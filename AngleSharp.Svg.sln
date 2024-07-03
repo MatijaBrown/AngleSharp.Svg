@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{2E20276C-C84A-4903-B839-02A6CEA77D93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{B5D9DBC4-6290-4447-B52B-5FAF95B162A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{06EFA958-9D8D-4B12-A132-A252AF4EFBE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngleSharp.Svg", "Source\AngleSharp.Svg\AngleSharp.Svg.csproj", "{E0A35133-411F-4D7E-8F82-D7F536E96EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngleSharp.Svg.Samples.WinForms", "Samples\AngleSharp.Svg.Samples.WinForms\AngleSharp.Svg.Samples.WinForms.csproj", "{58D3AF44-0CB1-423D-98A2-89D31C57635A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{2EE487B1-04DF-42B9-AD95-7C0585183567}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngleSharp.DomGeometry", "Source\AngleSharp.DomGeometry\AngleSharp.DomGeometry.csproj", "{832862B4-F291-4A65-9029-4FFC0A249807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleSharp.Svg.Samples.SilkyNvg", "Samples\AngleSharp.Svg.Samples.SilkyNvg\AngleSharp.Svg.Samples.SilkyNvg.csproj", "{B12CF13E-869F-454F-8331-737C6056B2EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0A35133-411F-4D7E-8F82-D7F536E96EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A35133-411F-4D7E-8F82-D7F536E96EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A35133-411F-4D7E-8F82-D7F536E96EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A35133-411F-4D7E-8F82-D7F536E96EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D3AF44-0CB1-423D-98A2-89D31C57635A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D3AF44-0CB1-423D-98A2-89D31C57635A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D3AF44-0CB1-423D-98A2-89D31C57635A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D3AF44-0CB1-423D-98A2-89D31C57635A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832862B4-F291-4A65-9029-4FFC0A249807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832862B4-F291-4A65-9029-4FFC0A249807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832862B4-F291-4A65-9029-4FFC0A249807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832862B4-F291-4A65-9029-4FFC0A249807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12CF13E-869F-454F-8331-737C6056B2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12CF13E-869F-454F-8331-737C6056B2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12CF13E-869F-454F-8331-737C6056B2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12CF13E-869F-454F-8331-737C6056B2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0A35133-411F-4D7E-8F82-D7F536E96EA4} = {2E20276C-C84A-4903-B839-02A6CEA77D93}
+		{58D3AF44-0CB1-423D-98A2-89D31C57635A} = {B5D9DBC4-6290-4447-B52B-5FAF95B162A2}
+		{832862B4-F291-4A65-9029-4FFC0A249807} = {2E20276C-C84A-4903-B839-02A6CEA77D93}
+		{B12CF13E-869F-454F-8331-737C6056B2EE} = {B5D9DBC4-6290-4447-B52B-5FAF95B162A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B37B79EA-F771-401D-9178-392480B1F7A7}
+	EndGlobalSection
+EndGlobal
