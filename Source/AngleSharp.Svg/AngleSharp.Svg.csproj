@@ -6,12 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AngleSharp" Version="0.17.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\AngleSharp.DomGeometry\AngleSharp.DomGeometry.csproj" />
-  </ItemGroup>
-
 </Project>
