@@ -15,10 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngleSharp.DomGeometry.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngleSharp.Svg", "src\AngleSharp.Svg\AngleSharp.Svg.csproj", "{DDAB6A7A-FAED-4E6C-AA87-2C2DBE851F38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngleSharp.Svg.DataTypes.Tests", "tests\AngleSharp.Svg.DataTypes.Tests\AngleSharp.Svg.DataTypes.Tests.csproj", "{3ACC68E7-1475-4BB5-AEF6-EDFBA4902E94}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleSharp.Svg.Playground", "samples\AngleSharp.Svg.Playground\AngleSharp.Svg.Playground.csproj", "{D05C81CD-7CD6-48CD-BB42-8E49845AD067}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,14 +29,6 @@ Global
 		{DDAB6A7A-FAED-4E6C-AA87-2C2DBE851F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDAB6A7A-FAED-4E6C-AA87-2C2DBE851F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDAB6A7A-FAED-4E6C-AA87-2C2DBE851F38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3ACC68E7-1475-4BB5-AEF6-EDFBA4902E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3ACC68E7-1475-4BB5-AEF6-EDFBA4902E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3ACC68E7-1475-4BB5-AEF6-EDFBA4902E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3ACC68E7-1475-4BB5-AEF6-EDFBA4902E94}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D05C81CD-7CD6-48CD-BB42-8E49845AD067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D05C81CD-7CD6-48CD-BB42-8E49845AD067}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D05C81CD-7CD6-48CD-BB42-8E49845AD067}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D05C81CD-7CD6-48CD-BB42-8E49845AD067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,8 +37,6 @@ Global
 		{9B27ED62-155C-49BA-8D81-A75514A10DE3} = {BBC82B09-7B1C-452B-B92A-5AD8BF6B9569}
 		{F2EF4D7E-80AC-4080-AA83-42B069999C3A} = {9B27ED62-155C-49BA-8D81-A75514A10DE3}
 		{DDAB6A7A-FAED-4E6C-AA87-2C2DBE851F38} = {602F0EA8-56BA-4342-8D63-7BBA145FE8A7}
-		{3ACC68E7-1475-4BB5-AEF6-EDFBA4902E94} = {9B27ED62-155C-49BA-8D81-A75514A10DE3}
-		{D05C81CD-7CD6-48CD-BB42-8E49845AD067} = {DF3193E4-B169-4F22-BB46-A0FECABD7170}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3405D0D7-30B6-4950-81FB-D5CE8D1B5F48}
